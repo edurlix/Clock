@@ -22,8 +22,8 @@ export class ClockApp extends React.Component {
         return(
             <div className="Contenido">
                 <div className="botones">
-                    <button onClick={this.hideComponent} onTouchEnd={this.hideComponent}>Toggle</button>
-                    <button onClick={this.isPrecise} onTouchEnd={this.isPrecise}>Precise</button>
+                    <button onClick={this.hideComponent} onTouchMove={this.hideComponent}>Toggle</button>
+                    <button onClick={this.isPrecise} onTouchMove={this.isPrecise}>Precise</button>
                 </div>
                 <div>
                     {this.state.ShowContent && <Clock isPrecise={this.state.isPrecise}/>}

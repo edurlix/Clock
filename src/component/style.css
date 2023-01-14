@@ -56,6 +56,16 @@ h1{
     }
 }
 
+@media only screen and (max-width: 1960px){
+    .Contenido{
+        width: 30%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
+
 @media only screen and (max-width: 1635px){
     .Contenido{
         width: 35%;
@@ -119,6 +129,101 @@ h1{
 @media only screen and (max-width: 700px){
     .Contenido{
         width: 65%;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .Contenido{
+        width: 70%;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Contenido{
+        width: 75%;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .Contenido{
+        width: 85%;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .Contenido{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 467px){
+    .Contenido{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .Contenido{
+        width: 90%;
+    }
+
+    button{
+        width: 90px;
+    }
+
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 382px){
+    .Contenido{
+        width: 90%;
+    }
+
+    button{
+        width: 80px;
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 362px){
+    .Contenido{
+        width: 90%;
+    }
+
+    button{
+        width: 70px;
+        font-size: 16px;
     }
 
     h1{
